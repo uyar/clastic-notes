@@ -1,10 +1,11 @@
 # Notes about Clastic
 
-Some notes, thoughts, and questions without any significant order.
+Some notes, thoughts, and questions without any particular order.
 
 ## Route decorators
 
-The cline application under the `examples` directory uses route decorators. Other examples don't use them.
+The cline application under the `examples` directory uses route decorators.
+Other examples don't use them.
 Considering that these might make route ordering difficult,
 are they still valid, or are they deprecated/discouraged?
 
