@@ -43,6 +43,36 @@ It would be better if all examples followed the same design,
 it gets confusing when looking at the example application codes.
 
 
+## Documentation
+
+Where to go from here?
+
+Enough tutorials for now, I believe.
+
+Small descriptions and examples of existing middleware.
+
+### How-Tos
+
+how do I ...
+
+- ... write a custom renderer (and why would I need to)?
+- ... use mako/chameleon/other template engine?
+- ... use sqlalchemy? (not my priority)
+- ... write my own middleware (and why)?
+
+### Authentication
+
+- implementing one yourself
+- something like flask-login? (personally, I find it complicated in fact; would be nice to have something simpler, if possible)
+- something like flask-dance?
+- integrating with python-social?
+
+
+## Extending Clastic
+
+- Any plugin infrastructure?
+
+
 ## obj_browser app
 
 Is this something like traversal routing in Pyramid/Morepath?
@@ -50,3 +80,7 @@ Is this something like traversal routing in Pyramid/Morepath?
 https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/traversal.html
 
 https://morepath.readthedocs.io/en/latest/quickstart.html#routing
+
+> This is an application for browsing objects in the Python process space, useful for debugging live process with context objects, etc. It can help with memory/greenlet/connection leaks too.
+> 
+> Doesn't work so well in pools of processes, but handy for development.
