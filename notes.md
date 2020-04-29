@@ -1,3 +1,7 @@
+---
+tags: python, clastic, web application, framework
+title: Notes about Clastic.
+---
 # Notes about Clastic
 
 Some notes, thoughts, and questions without any particular order.
@@ -66,6 +70,7 @@ how do I ...
 - something like flask-login? (personally, I find it complicated in fact; would be nice to have something simpler, if possible)
 - something like flask-dance?
 - integrating with python-social?
+- jwt
 
 
 ## Extending Clastic
